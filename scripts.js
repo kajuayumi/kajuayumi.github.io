@@ -7,7 +7,7 @@ function chamaAPI(termo){
 			var pais = data.data.country;
 			var cidade = data.data.city + " - SP";
 			var pollution = data.data.current.pollution.aqius+" aqi";
-			var iconezinho = "https://www.airvisual.com/images/"+data.data.current.weather.ic+".png";
+			var iconezinho = "https://www.airvisual.com/images/"+data.data.current.weather.ic;
 			var temperatura = data.data.current.weather.tp+" °C";
 			var humidade = data.data.current.weather.hu+"%";
 			var vento = data.data.current.weather.ws+" m/s";
