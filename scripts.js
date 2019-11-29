@@ -1,4 +1,3 @@
-
 function chamaAPI(termo){
 	var url = "https://api.airvisual.com/v2/city?city="+termo+"&state=Sao%20Paulo&country=Brazil&key=85779d9b-477d-49dc-9ba3-005e988f55b5";
 
@@ -7,7 +6,7 @@ function chamaAPI(termo){
 			var pais = data.data.country;
 			var cidade = data.data.city + " - SP";
 			var pollution = data.data.current.pollution.aqius+" aqi";
-			var iconezinho = "https://www.airvisual.com/images/"+data.data.current.weather.ic+".png";
+			var iconezinho = "https://www.airvisual.com/images/"+corrigeIcone(data.data.current.weather.ic)+".png";
 			var temperatura = data.data.current.weather.tp+" °C";
 			var humidade = data.data.current.weather.hu+"%";
 			var vento = data.data.current.weather.ws+" m/s";
@@ -26,6 +25,21 @@ function chamaAPI(termo){
 			$(".vento").text(vento);
 			$(".pressao").text(pressao);
 	})
+}
+
+
+function corrigeIcone(ic) {
+	var icons = { 
+		'04n': '02n',
+		'11n': '11d',
+	}
+	var icon = ic;
+
+	if (ic in icons) {
+		icon = icons[ic]
+	}
+
+	return icon
 }
 
 
@@ -51,3 +65,5 @@ jQuery(document).ready(function(){
 
 
 })
+
+
