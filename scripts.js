@@ -32,6 +32,7 @@ function corrigeIcone(ic) {
 	var icons = { 
 		'04n': '02n',
 		'11n': '11d',
+		'03n': '02n',
 	}
 	var icon = ic;
 
