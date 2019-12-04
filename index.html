@@ -43,9 +43,14 @@
     <div class="container">
 
       <div class="row text-center">
-      <div class="text-center" style="margin:auto;">
-          <select id="select-dinamico">
-          </select>
+      <div style="margin: auto;">
+        <form>
+          <div class="row" id="partedoselect">
+            <label for="select-dinamico">Mudar cidade: </label>
+            <select class="form-control" id="select-dinamico">
+            </select>
+          </div>
+        </form>
       </div>
       </div>
 
@@ -65,30 +70,48 @@
               
 
               <div id="oi">
-                <img class="icon img-fluid" src="">
+                <div id="imgcontainer1">
+                  <img class="icon img-fluid" src="">
+                </div>
                 <h2 class="temperatura text-center"></h2>
               </div>
               
-              <div class="row">
-                <span>
-                  <img src="imgs/drop.svg" class="icic img-fluid">
-                  <p class="humidade"></p>
-                </span>
-              </div>
-              
-              <div class="row">
-              <span>
-                <img src="imgs/wind.svg" class="icic img-fluid">
-              <p class="vento"></p>
-              </span>
-              </div>
-              
-              <div class="row">
-              <span>
-              <img src="imgs/gauge.svg" class="icic img-fluid">
-              <p class="pressao"></p>
-              </span>
-              </div>
+              <ul id="iconeslista">
+
+                <li class="poi">
+                      <span class="aei">
+                        <img src="imgs/drop.svg" class="icic img-fluid imgs">
+                      </span>
+                      <span class="aei">
+                        <span class="gi">umidade: </span>
+                        <span class="humidade gi"></span>
+                      </span>
+                </li>
+                
+
+                <li class="poi">
+                      <span class="aei">
+                        <img src="imgs/wind.svg" class="icic img-fluid imgs">
+                      </span>
+                      <span class="aei">
+                        <span class="gi">vento: </span>
+                        <span class="vento gi"></span>
+                      </span>
+                </li>
+
+
+                <li class="poi">
+                      <span class="aei">
+                        <img src="imgs/gauge.svg" class="icic img-fluid imgs">
+                      </span>
+                      <span class="aei">
+                        <span class="gi">pressão atm.: </span>
+                        <span class="pressao gi"></span>
+                      </span>
+                </li>
+
+
+              </ul>
 
             </div>
           </div>
@@ -149,16 +172,12 @@ por ano do que o cigarro, que é responsável por cerca de 7 milhões de óbitos
     <div class="row">
       <div class="col-6">
      <h2>3.</h2>
-     <p>Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor.</p>  
+     <p> Evitar o uso de agrotóxicos, dando preferência para o controle biológico.</p>  
  </div> 
     
     <div class="col-6">
     <h2>4.</h2>
-     <p>Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor.</p>  
+     <p>Promover o reflorestamento de áreas degradadas.</p>  
 </div>
 
 </div>

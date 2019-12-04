@@ -1,9 +1,14 @@
 .icon {
     max-width: 15rem!important;
+    text-align: center;
 }
 
 #oi {
 	margin:auto;
+}
+
+#partedoselect {
+	margin-bottom: 1rem;
 }
 
 .temperatura{
@@ -12,7 +17,7 @@
 }
 
 .icic {
-	width: 2rem;
+	width: 2rem!important;
 }
 
 .titulo-pol{
@@ -49,4 +54,37 @@
 
 .planet{
 	width: 80%;
+}
+
+#iconeslista {
+	list-style: none;
+}
+
+/* testeeee */
+
+.poi {
+  display: table;
+  margin-top: 1rem;
+}
+
+.imgs {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 0!important;
+  margin-right: 0.5rem;
+
+}
+.aei {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.gi {
+	vertical-align: middle;
+	margin: 0!important;
+}
+
+#imgcontainer1 {
+  display: flex;
+  justify-content: center;
 }
