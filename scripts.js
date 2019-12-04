@@ -1,5 +1,5 @@
 function chamaAPI(termo){
-	var url = "https://api.airvisual.com/v2/city?city="+termo+"&state=Sao%20Paulo&country=Brazil&key=85779d9b-477d-49dc-9ba3-005e988f55b5";
+	var url = "https://api.airvisual.com/v2/city?city="+termo+"&state=Sao%20Paulo&country=Brazil&key=e7950e55-059d-4111-a17c-00b9f4371594";
 
 
 	jQuery.getJSON(url, function(data) {
@@ -52,7 +52,7 @@ function seleciona(){
 } 
 
 function preencherSelect() {
-	jQuery.getJSON('https://api.airvisual.com/v2/cities?Paulo&state=Sao%20Paulo&country=Brazil&key=85779d9b-477d-49dc-9ba3-005e988f55b5', function(data) {
+	jQuery.getJSON('https://api.airvisual.com/v2/cities?Paulo&state=Sao%20Paulo&country=Brazil&key=e7950e55-059d-4111-a17c-00b9f4371594', function(data) {
 		data.data.forEach(function(e) {
 			$('#select-dinamico').append('<option>'+e.city+'</option>')
 		})
