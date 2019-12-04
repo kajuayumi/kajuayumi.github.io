@@ -32,6 +32,7 @@
 #como-evitar{
 	background-color: #F5F7F8;
 	padding: 3rem;
+	margin-bottom: 5rem;
 
 }
 
@@ -98,4 +99,72 @@
 
 .card {
 	margin-bottom: 1rem;
+}
+
+/* FOOTER */
+
+ 
+
+footer{
+     background-color: #D9D7DC;
+     padding: 3rem;
+}           
+
+ 
+
+.logo{
+    color: black;
+    font-weight:700;
+    font-size:30px;
+}
+
+ 
+
+.address span , .menu span{
+   color: black; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.address li a , .menu li a{
+    color: black;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+ 
+
+.address li, .menu li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+ 
+
+.address li a:hover , .menu li a:hover{
+    color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+ 
+
+.address .fa{
+    color: black;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+ 
+
+.logo{
+    height: 50%;
 }
