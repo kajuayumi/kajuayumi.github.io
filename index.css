@@ -6,6 +6,21 @@
 	margin:auto;
 }
 
+.temperatura{
+	font-family: Georgia;
+	font-weight: bold;
+}
+
 .icic {
 	width: 2rem;
+}
+
+.titulo-pol{
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+.cidade{
+	font-family: Georgia;
+	font-weight: bold;
 }
