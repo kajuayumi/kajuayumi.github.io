@@ -18,9 +18,34 @@
 .titulo-pol{
 	font-family: Georgia;
 	font-weight: bold;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+
+#sobre{
+	padding: 5rem;
 }
 
 .cidade{
 	font-family: Georgia;
 	font-weight: bold;
+}
+
+#como-evitar{
+	background-color: #F5F7F8;
+	padding: 3rem;
+}
+
+#como-evitar h1{
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+#como-evitar h2{
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+.planet{
+	width: 80%;
 }
