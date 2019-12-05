@@ -108,6 +108,17 @@ html {
 	margin-bottom: 1rem;
 }
 
+
+.legenda{
+	background-color: #BDD9E0;
+	padding: 1rem;
+	font-size: 20px;
+	color: #444444;
+}
+
+.legenda strong{
+	font-family: 'DM Serif Text', serif;
+}
 /* FOOTER */
 
  
